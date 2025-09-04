@@ -3,15 +3,15 @@ import './App.css'
 import './index.css'
 
 const messages = [
-  'Learn React ⚛️',
-  'Apply for jobs 💼',
-  'Invest your new income 🤑',
+  'Open VSCode with purpose ⚔️',
+  'Refactor something nobody asked for 🔧',
+  'Push like a hero 🦸',
 ]
 
 const stepDescriptions = [
-  'Master the fundamentals of React including components, state, and props',
-  'Prepare your portfolio and apply to positions that match your skill set',
-  'Make smart financial decisions with your developer income',
+  'Today is the day. You’re basically a coding gladiator.',
+  'Did it need fixing? No. Did you fix it anyway? Yes.',
+  "Commit message: 'final_final_FIX_reallyFINAL'.",
 ]
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
       {isOpen && (
         <div className={`steps ${isClosing ? 'closing' : ''}`}>
           <div className="github-badge">Step Tracker v2.0</div>
-          <h1 className="app-title">Development Journey</h1>
+          <h1 className="app-title">Overengineer’s Chronicle</h1>
 
           <button className="close" onClick={handleClose}>
             &times;
